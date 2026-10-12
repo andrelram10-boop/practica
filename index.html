@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi práctica de GitHub</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #ffd166;
+      color: #1d3557;
+      line-height: 1.6;
+    }
+    header {
+      background: #ef476f;
+      color: #fff;
+      padding: 48px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-weight: 700; /* negritas */
+      font-size: clamp(2rem, 7vw, 3.5rem);
+    }
+    header p { margin: 12px 0 0; font-size: 1.1rem; }
+    main { max-width: 900px; margin: 0 auto; padding: 32px 20px 56px; }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .galeria img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 4px solid #fff;
+    }
+    footer { text-align: center; padding: 20px; background: #1d3557; color: #fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi primera práctica en GitHub</h1>
+    <p>Una página con título en negritas, fondo de color e imágenes</p>
+  </header>
+
+  <main>
+    <h2><strong>Sobre esta práctica</strong></h2>
+    <p>Esta página la hice para practicar cómo subir un proyecto a GitHub. Cambia los textos, los colores y las imágenes por los tuyos.</p>
+
+    <h2><strong>Galería</strong></h2>
+    <div class="galeria">
+      <img src="https://picsum.photos/seed/uno/600/400" alt="Imagen 1">
+      <img src="https://picsum.photos/seed/dos/600/400" alt="Imagen 2">
+      <img src="https://picsum.photos/seed/tres/600/400" alt="Imagen 3">
+    </div>
+  </main>
+
+  <footer>Hecho por: tu nombre</footer>
+</body>
+</html>
